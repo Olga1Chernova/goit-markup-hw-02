@@ -4,3 +4,99 @@
 a{
     text-decoration: none;
 }
+body{
+    font-family: 'Roboto', sans-serif;
+}
+/*=====================================COMPONENTS=====================================*/
+.logotype {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+
+.logo-part {
+    color: #2196F3;
+}
+/*=====================================HERO=====================================*/
+.menu-item {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+.menu-item :hover, 
+.menu :focus{
+color: #2196F3;
+}
+.contact{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+.contact-mail :focus, 
+.contact-mail :hover {
+    color: #2196F3;
+}
+.main-title{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.7;
+    text-align: center;
+   letter-spacing: 0.06em;
+    text-transform: uppercase;
+    /* color: #FFFFFF; */
+}
+.modal-button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    text-align: center;
+    letter-spacing: 0.06em;
+    /* color: #FFFFFF; */
+    cursor: pointer;
+}
+.advantages-title{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+.advantages-description{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+.work-title, .team-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.team-member{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.team-job{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+     letter-spacing: 0.03em;
+    color: #757575;
+}
