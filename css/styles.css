@@ -1,3 +1,8 @@
+:root{
+    --accent-color: #2196F3;
+    --heading-text-color:#212121;
+    --description-text-color:#757575;
+}
 .list{
     list-style: none;
 }
@@ -7,90 +12,108 @@ a{
 body{
     font-family: 'Roboto', sans-serif;
 }
-/*=====================================COMPONENTS=====================================*/
+/*=====================================HEADER=====================================*/
 .logotype {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
-    line-height: 1.2;
+    line-height: 1.19;
     letter-spacing: 0.03em;
     color: #000000;
 }
 
 .logo-part {
-    color: #2196F3;
+    color: var(--accent-color);
 }
-/*=====================================HERO=====================================*/
 .menu-item {
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.1;
+    line-height: 1.14;
     letter-spacing: 0.02em;
-    color: #212121;
+    color: var(--heading-text-color);
 }
 .menu-item :hover, 
 .menu :focus{
-color: #2196F3;
+color: var(--accent-color);
+}
+.current{
+    color: var(--accent-color);
 }
 .contact{
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.1;
+    line-height: 1.19;
     letter-spacing: 0.02em;
-    color: #757575;
+    color: var(--description-text-color);
+    font-style: none;
 }
-.contact-mail :focus, 
-.contact-mail :hover {
-    color: #2196F3;
+.contact :focus, 
+.contact :hover {
+    color: var(--accent-color);
 }
+/*=====================================HERO=====================================*/
 .main-title{
     font-weight: 900;
     font-size: 44px;
-    line-height: 1.7;
+    line-height: 1.36;
     text-align: center;
    letter-spacing: 0.06em;
     text-transform: uppercase;
-    /* color: #FFFFFF; */
+    color: #FFFFFF; 
+    background-color: #2F303A;
 }
 .modal-button {
     font-weight: 700;
     font-size: 16px;
-    line-height: 1.9;
+    line-height: 1.87;
     text-align: center;
     letter-spacing: 0.06em;
-    /* color: #FFFFFF; */
+    color: #FFFFFF; 
     cursor: pointer;
+    background-color: var(--accent-color);
 }
+.modal-button :hover,
+.modal-button :focus{
+    background-color: #188CE8;
+}
+/*=====================================ADVANTAGE SECTION=====================================*/
 .advantages-title{
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #212121;
+    color: var(--heading-text-color);
 }
 .advantages-description{
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--description-text-color);
 }
+/*=====================================TEAM & WORK SECTIONS=====================================*/
 .work-title, .team-title{
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--heading-text-color);
+}
+.team {
+    background: #F5F4FA;
+}
+.team-card{
+    background: #FFFFFF;
 }
 .team-member{
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.19px;
+    line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--heading-text-color);
 }
 .team-job{
     font-weight: 400;
@@ -98,5 +121,55 @@ color: #2196F3;
     line-height: 1.19;
     text-align: center;
      letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--description-text-color);
+}
+/*=====================================PORTFOLIO=====================================*/
+.example-button{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.62;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: var(--heading-text-color);
+        background-color: #F5F4FA;
+        cursor: pointer;
+}
+.example-button :hover,
+.example-button :focus{
+background-color: var(--accent-color);
+}
+.projects{
+    background-color: #E5E5E5;
+}
+.project-card{
+background-color: #FFFFFF;
+}
+.project-name{
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
+        letter-spacing: 0.06em;
+        color: var(--heading-text-color);
+}
+.project-description{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.87;
+        letter-spacing: 0.03em;
+        color: var(--description-text-color);
+}
+/*=====================================FOOTER=====================================*/
+.studio-adress{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    font-style: normal;
+}
+.contact-info{
+    background-color: #2F303A;
+}
+.logo-part-footer{
+    color:#FFFFFF;
 }
