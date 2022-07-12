@@ -143,13 +143,13 @@ color: var(--accent-color);
 /*=====================================PORTFOLIO=====================================*/
 .example-button{
         font-weight: 500;
-        font-family: var(--primary-font);
+        font-family: 'Roboto',sans-serif;;
         font-size: 16px;
         line-height: 1.62;
         text-align: center;
         letter-spacing: 0.03em;
-        color: var(--heading-text-color);
-        background-color: #F5F4FA;
+        color: #212121;;
+        background-color:#F5F4FA;
         cursor: pointer;
 }
 .example-button :hover,
