@@ -39,6 +39,9 @@ body{
 .menu-item :focus{
 color: #2196F3;
 }
+.current {
+    color: var(--accent-color);
+}
 .contact-part {
     font-family: var(--primary-font);
     font-weight: 400;
